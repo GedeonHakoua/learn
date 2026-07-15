@@ -1,3 +1,4 @@
+import ContactList from '@/components/contact-list';
 import Navbar from '@/components/navbar'
 import Link from 'next/link'
 import React from 'react'
@@ -12,6 +13,8 @@ export default function page({}: Props) {
         <Link href={"/add-contact"} className='btn'>
           Ajouer un contact
         </Link>
+
+        <ContactList />
       </header>
     </div>
     
