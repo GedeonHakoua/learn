@@ -11,7 +11,7 @@ export default function page({}: Props) {
       <header className='flex between'>
         <h1>Liste des contacts</h1>
         <Link href={"/add-contact"} className='btn'>
-          Ajouer un contact
+          Ajouter un contact
         </Link>
 
         <ContactList />

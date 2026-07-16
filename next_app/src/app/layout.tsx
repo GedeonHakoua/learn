@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { raleway } from "@/fonts/font";
+import { poppins, raleway } from "@/fonts/font";
 import Navbar from "@/components/navbar";
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={`${raleway.className}`}>
+      <body className={`${poppins.className}`}>
         {children}
       </body>
     </html>
